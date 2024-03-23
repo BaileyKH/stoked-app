@@ -1,0 +1,43 @@
+.product-layout {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 30px 50px;
+}
+
+.product-header{
+    flex-grow: 1; 
+    margin-bottom: 50px;
+}
+
+.product-header h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+   
+}
+
+.product-header p {
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    gap: 50px; 
+}
+
+@media only screen and (max-width: 1020px) {
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .product-header {
+        text-align: center;
+    }
+}
