@@ -7,7 +7,7 @@ export const Products = () => {
   return (
     <>
       {filteredItems.map((item) => ( 
-      <div className="card">
+      <div className="card" key={item.id}>
         <div className="image-container">
           <img src={item.img} alt={item.name} />
         </div>
