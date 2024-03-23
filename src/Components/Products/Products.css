@@ -1,0 +1,31 @@
+.card {
+    background-color: white;
+    width: 250px;
+    height: 325px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.2);
+}
+
+.image-container {
+    height: 75%;
+    overflow: hidden; 
+    border-radius: 10px
+}
+
+.card-text {
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+.card-text p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
