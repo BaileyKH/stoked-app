@@ -29,7 +29,7 @@ function App() {
       <Trending />
       <Banner 
         title={"Montec Snowboard Jacket"}
-        description={"The newest addition to the burton line is their one of a kind step-on bindings, making it easier than ever to shred the moutain"}
+        description={"Medium-weight insulation for perfect balance between warmth and performance"}
         image={"/src/assets/banner-images/banner-2.png"}
       />
       <Footer />
