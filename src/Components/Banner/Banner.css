@@ -3,10 +3,7 @@
   justify-content: space-between;
   height: 20rem;
   overflow: hidden;
-}
-
-.banner {
-  padding-bottom: 10rem;
+  margin: 70px 0;
 }
 
 .text-container {
