@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
@@ -6,9 +7,9 @@ import './NavBar.css'
 export const NavBar = () => {
     return(
         <nav className="navbar">
-            <a className="nav-logo" href="#">STOKED</a>
+            <Link to="/" className="nav-logo">STOKED</Link>
             <div className="nav-items">
-                <a className="links" href="#">Product Page</a>
+                <Link to="/productpage" className="links" >Product Page</Link>
                 <a className="links" href="#">Categories</a>
                 <div className="search-container">
                     <FontAwesomeIcon icon={faMagnifyingGlass} />
