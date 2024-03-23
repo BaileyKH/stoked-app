@@ -5,6 +5,7 @@ import { NavBar } from './Components/NavBar/NavBar'
 import { Products } from './Components/Products/Products';
 import { Footer } from './Components/Footer/Footer';
 import { Banner } from './Components/Banner/Banner';
+import { Trending } from './Components/Trending/Trending';
 
 function App() {
   return (
@@ -20,7 +21,17 @@ function App() {
           <Products />
         </div>
       </div>
-      <Banner />
+      <Banner 
+        title={"Burton Step-On"}
+        description={"The newest addition to the burton line is their one of a kind step-on bindings, making it easier than ever to shred the moutain"}
+        image={"/src/assets/banner-images/step-on.png"}
+      />
+      <Trending />
+      <Banner 
+        title={"Montec Snowboard Jacket"}
+        description={"The newest addition to the burton line is their one of a kind step-on bindings, making it easier than ever to shred the moutain"}
+        image={"/src/assets/banner-images/banner-2.png"}
+      />
       <Footer />
     </>
   )

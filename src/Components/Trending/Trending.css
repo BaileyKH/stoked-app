@@ -1,0 +1,79 @@
+.items {
+    background-color: white;
+    width: 250px;
+    height: 325px;
+    text-align: left;
+    padding: 10px;
+    flex: 0 0 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.2);
+    cursor: pointer;
+}
+
+.image-container {
+    height: 75%;
+    overflow: hidden; 
+    border-radius: 10px
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.item-text {
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+.item-price {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item-container {
+    display: flex;
+    gap: 2.2rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    position: relative;
+    padding: 1rem .6rem;
+}
+
+.item-container::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.trending-title {
+    display: flex;
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 0 25px 50px;
+}
+
+.trending-btn button {
+    color: hsl(229, 12%, 17%);
+    background: transparent;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.trending-btn {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.trending-btn button:hover {
+    color: hsl(206, 100%, 50%);
+}
