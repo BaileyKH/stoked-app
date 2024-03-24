@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { Home } from './Pages/Home';
 import { NavBar } from './Components/NavBar/NavBar';
-import { Footer } from './Components/Footer/Footer';
 import { ProductPage } from './Pages/ProductPage';
+import { Footer } from './Components/Footer/Footer';
 
 function App() {
   return (
