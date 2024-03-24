@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass, faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
 import './NavBar.css'
 
@@ -16,6 +16,9 @@ export const NavBar = () => {
                     <input className="search-input" 
                         type="search" 
                         placeholder="Search"/>
+                </div>
+                <div className="cart-container">
+                    <Link to="/cart"><FontAwesomeIcon icon={faCartShopping} className="cart-logo"/></Link>
                 </div>
             </div>
         </nav>
