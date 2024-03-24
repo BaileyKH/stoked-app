@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Banner.css'
 
 export const Banner = ({title, description, image}) => {
@@ -9,7 +11,7 @@ export const Banner = ({title, description, image}) => {
               <div className="text">
                 <h2>{title}</h2>
                 <p>{description}</p>
-                  <button>Shop now</button>
+                  <Link onClick={() => window.top(0,0)} to="/categories"><button> Shop now</button></Link>
               </div>
             </div>
             <div className="img-side">

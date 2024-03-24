@@ -21,7 +21,7 @@
     margin-top: 15px;
 }
 
-.main-item-container{
+.product-container{
     display: flex;
     flex-wrap: wrap;
     align-items: center; 

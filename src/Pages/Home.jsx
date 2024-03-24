@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { Hero } from '../Components/Hero/Hero'
-import { Products } from '../Components/Products/Products';
+import { NewProducts } from '../Components/NewProducts/NewProducts';
 import { Banner } from '../Components/Banner/Banner';
 import { Trending } from '../Components/Trending/Trending';
 
@@ -14,8 +14,8 @@ export const Home = () => {
           <h2>Newest Products</h2>
           <p>Check out our most recent additions to the gear locker!</p>
         </div>
-        <div className="product-container">
-          <Products />
+        <div className="main-item-container">
+          <NewProducts />
         </div>
       </div>
       <Banner 

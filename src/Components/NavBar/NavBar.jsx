@@ -10,7 +10,7 @@ export const NavBar = () => {
             <Link to="/" className="nav-logo">STOKED</Link>
             <div className="nav-items">
                 <Link to="/productpage" className="links" >Product Page</Link>
-                <a className="links" href="#">Categories</a>
+                <Link to="/categories" className="links" >Categories</Link>
                 <div className="search-container">
                     <FontAwesomeIcon icon={faMagnifyingGlass} />
                     <input className="search-input" 

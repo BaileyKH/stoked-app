@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Hero.css'
 
 export const Hero = () => {
@@ -6,7 +8,7 @@ export const Hero = () => {
             <div className="hero-text-container">
                 <h1>Stoked Snowboarding</h1>
                 <p>Gear up for the season with the latest boards from your favorite brands</p>
-                <button>Shop now</button>
+                <Link to="/categories"><button>Shop now</button></Link>
             </div>
         </div>
     );

@@ -17,20 +17,28 @@ import { AddToCart } from "../Buttons/AddToCart/AddToCart";
 
 export const ProductItem = () => {
 
+    const [mainImg, setMainImg] = useState(main)
+
+    const changeMainImage = (newSrc) => {
+        setMainImg(newSrc);
+    };
+
+
   return (
     <div>
       <div className="prod-container">
         <div className="small-img-container">
-          <img src={img1} alt="back of black snow jacket" />
-          <img src={img2} alt="goggle pocket of black snow jacket" />
-          <img src={img3} alt="material of black snow jacket" />
-          <img src={img4} alt="pass pocket of black snow jacket" />
-          <img src={img5} alt="phone pocket of black snow jacket" />
-          <img src={img6} alt="sleeve velcro of black snow jacket" />
-          <img src={img7} alt="stretchy waist belt of black snow jacket" />
+          <img src={img1} alt="back of black snow jacket" onClick={() => changeMainImage(img1)}/>
+          <img src={img2} alt="goggle pocket of black snow jacket" onClick={() => changeMainImage(img2)}/>
+          <img src={img3} alt="material of black snow jacket" onClick={() => changeMainImage(img3)}/>
+          <img src={img4} alt="pass pocket of black snow jacket" onClick={() => changeMainImage(img4)}/>
+          <img src={img5} alt="phone pocket of black snow jacket" onClick={() => changeMainImage(img5)}/>
+          <img src={img6} alt="sleeve velcro of black snow jacket" onClick={() => changeMainImage(img6)}/>
+          <img src={img7} alt="stretchy waist belt of black snow jacket" onClick={() => changeMainImage(img7)}/>
+          <img src={main} alt="686 snowboarding jacket" onClick={() => changeMainImage(main)}/>
         </div>
         <div className="large-img-container">
-          <img src={main} alt="686 snowboarding jacket" />
+          <img src={mainImg} alt="686 snowboarding jacket" />
         </div>
         <div className="checkout-container">
           <h3>686 Snow Jacket</h3>
