@@ -4,7 +4,7 @@ Welcome to Stoked, your go-to destination for the latest and greatest in snowboa
 
 ## Features
 
-SnowRide Gear Shop offers a user-friendly interface with robust features including:
+Stoked Snowboarding Shop offers a user-friendly interface with robust features including:
 
 - **Product Browsing:** Effortlessly navigate through our wide range of snowboarding equipment categorized by type, brand, and price.
 - **Detailed Product Descriptions:** Get all the information you need with detailed descriptions, specifications, and high-quality images for each product.
