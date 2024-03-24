@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import "./ProductItem.css";
 
 import main from "/src/assets/product-images/686-jacket.jpg";
@@ -10,6 +12,15 @@ import img6 from "/src/assets/product-images/product-views/sleeve.webp";
 import img7 from "/src/assets/product-images/product-views/waist.jpeg";
 
 export const ProductItem = () => {
+  const [selected, setSelected] = useState(0);
+  const options = ["Small", "Medium", "Large", "XL"];
+
+  const [clicked, setClicked] = useState(false); 
+
+  const handleClick = () => {
+    setClicked(true); 
+  };
+
   return (
     <div>
       <div className="prod-container">
@@ -30,6 +41,18 @@ export const ProductItem = () => {
           <p>Black and Orange 686 Snowboarding Jacket</p>
           <p className="price">$435.68</p>
           <hr></hr>
+          <div className="checkout-option">
+            <h4>Size</h4>
+            {options.map((option, index) => (
+              <button
+                key={index}
+                className={`segment ${selected === index ? "selected" : ""}`}
+                onClick={() => setSelected(index)}
+              >
+                {option}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
       <div className="specs">
