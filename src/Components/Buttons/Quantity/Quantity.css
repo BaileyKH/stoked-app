@@ -1,0 +1,48 @@
+.quantity-container {
+    margin-top: 15px;
+}
+
+.quantity-title {
+    font-size: 1.3em;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    padding-bottom: 5px;
+}
+
+.quantity-container input {
+    background-color: transparent;
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    border: 2px solid hsl(229, 12%, 17%);
+    color: hsl(229, 12%, 17%);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px 8px;
+}
+
+.quantity-container button {
+    background-color: hsl(229, 12%, 17%);
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    border: 2px solid hsl(229, 12%, 17%);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.quantity-container button:active {
+    background-color: transparent;
+    border: 2px solid hsl(229, 12%, 17%);
+    color: hsl(229, 12%, 17%);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

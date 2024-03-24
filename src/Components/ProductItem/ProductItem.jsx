@@ -11,15 +11,11 @@ import img5 from "/src/assets/product-images/product-views/phone-pocket.webp";
 import img6 from "/src/assets/product-images/product-views/sleeve.webp";
 import img7 from "/src/assets/product-images/product-views/waist.jpeg";
 
+import { Size } from "../Buttons/Size/Size";
+import { Quantity } from "../Buttons/Quantity/Quantity";
+import { AddToCart } from "../Buttons/AddToCart/AddToCart";
+
 export const ProductItem = () => {
-  const [selected, setSelected] = useState(0);
-  const options = ["Small", "Medium", "Large", "XL"];
-
-  const [clicked, setClicked] = useState(false); 
-
-  const handleClick = () => {
-    setClicked(true); 
-  };
 
   return (
     <div>
@@ -42,16 +38,9 @@ export const ProductItem = () => {
           <p className="price">$435.68</p>
           <hr></hr>
           <div className="checkout-option">
-            <h4>Size</h4>
-            {options.map((option, index) => (
-              <button
-                key={index}
-                className={`segment ${selected === index ? "selected" : ""}`}
-                onClick={() => setSelected(index)}
-              >
-                {option}
-              </button>
-            ))}
+            <Size />
+            <Quantity />
+            <AddToCart />
           </div>
         </div>
       </div>
