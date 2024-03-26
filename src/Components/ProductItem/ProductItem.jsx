@@ -23,7 +23,6 @@ export const ProductItem = () => {
         setMainImg(newSrc);
     };
 
-
   return (
     <div>
       <div className="prod-page-container">

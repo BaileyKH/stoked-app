@@ -24,7 +24,7 @@ export const ShoppingCart = () => {
                     <p><strong>Size</strong> Medium <strong>Quantity</strong> 1</p>
                 </div>
                 <div className="content-price">
-                        <p>$489.34</p>
+                        <p>$435.68</p>
                 </div>
             </div>
             <div className="summary-container">
@@ -38,7 +38,7 @@ export const ShoppingCart = () => {
                 </div>
                 <div className="subtotal">
                     <p>Subtotal</p>
-                    <p className="price-text">$489.34</p>
+                    <p className="price-text">$435.68</p>
                 </div>
                 <div className="est-ship">
                     <p>Estimated Shipping</p>
@@ -51,7 +51,7 @@ export const ShoppingCart = () => {
                 <hr></hr>
                 <div className="overall-total">
                     <p>Total</p>
-                    <p className="price-text">$499.34</p>
+                    <p className="price-text">$445.68</p>
                 </div>
                 <hr></hr>
                 <div className="checkout-btn-container">

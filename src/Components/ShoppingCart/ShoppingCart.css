@@ -53,6 +53,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    top: 0;
     width: 30%;
     margin: 50px 0 50px;
 }

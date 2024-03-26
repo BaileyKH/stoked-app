@@ -41,10 +41,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: center; */
     text-align: left;
     width: 35%;
-    padding-left: 20px;
+    padding-left: 30px;
     line-height: 2;
 }
 
@@ -58,7 +57,15 @@
 
 .checkout-container .price {
     font-family: 'Courier New', Courier, monospace;
-    padding-bottom: 10px;
+    padding: 0;
+}
+
+.checkout-container hr {
+    margin: 10px 0;
+}
+
+.checkout-option {
+    margin-bottom: 15px;
 }
 
 .specs {
@@ -78,8 +85,4 @@
 
 .specs p{
     padding: 5px;
-}
-
-.checkout-option {
-    margin: 15px 0;
 }
