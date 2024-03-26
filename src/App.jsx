@@ -9,10 +9,12 @@ import { ProductPage } from './Pages/ProductPage';
 import { Footer } from './Components/Footer/Footer';
 import { Categories } from './Pages/Categories';
 import { Cart } from './Pages/Cart';
+import { CartProvider } from './CartContext';
 
 function App() {
   return (
     <>
+      <CartProvider>
       <Router>
         <NavBar />
         <ToastContainer />
@@ -24,6 +26,7 @@ function App() {
         </Routes>
       </Router>
       <Footer />
+      </CartProvider>
     </>
   )
 }
