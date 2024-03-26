@@ -26,7 +26,7 @@ export const ProductItem = () => {
 
   return (
     <div>
-      <div className="prod-container">
+      <div className="prod-page-container">
         <div className="small-img-container">
           <img src={img1} alt="back of black snow jacket" onClick={() => changeMainImage(img1)}/>
           <img src={img2} alt="goggle pocket of black snow jacket" onClick={() => changeMainImage(img2)}/>

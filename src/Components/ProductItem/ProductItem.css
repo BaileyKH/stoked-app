@@ -1,4 +1,4 @@
-.prod-container {
+.prod-page-container {
     display: flex;
     justify-content: center;
     margin: 50px 8px 25px;
@@ -83,14 +83,3 @@
 .checkout-option {
     margin: 15px 0;
 }
-
-
-
-
-
-
-
-
-
-
-

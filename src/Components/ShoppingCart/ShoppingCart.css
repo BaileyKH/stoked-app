@@ -57,16 +57,80 @@
     margin: 50px 0 50px;
 }
 
+.summary-container h3{
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
 /* .promo-container {
-  
+
 } */
 
 .promo-container p{
     font-weight: 700;
+    padding-bottom: 5px;
 }
 
 .input-container {
     display: flex;
     flex-direction: row;
-
 } 
+
+.input-container input{
+    background: transparent;
+    padding: 8px 16px;
+    border: 1px solid hsla(229, 13%, 17%, 0.5);
+    border-radius: 5px;
+}
+
+.input-container button{
+    background: transparent;
+    text-align: center;
+    border: 1px solid hsla(229, 13%, 17%, 0.5);
+    border-radius: 28px;
+    margin-left: 8px;
+    padding: 8px 24px;
+}
+
+.subtotal,
+.est-ship,
+.est-tax,
+.overall-total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 50px;
+}
+
+.subtotal p,
+.est-ship p,
+.est-tax p,
+.overall-total p{
+    margin-top: 25px;
+    padding-right: 50px;
+}
+
+.price-text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.est-tax,
+.overall-total {
+    margin-bottom: 25px;
+}
+
+.summary-container hr{
+    width: 80%;
+}
+
+.overall-total p{
+    font-weight: 700;
+}
+
+.overall-total .price-text{
+    font-weight: 400;
+}
+
+/* .checkout-btn-container {
+    margin-top: 25px;
+} */

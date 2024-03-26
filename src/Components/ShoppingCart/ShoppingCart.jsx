@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons'
 
 import img from '/src/assets/product-images/686-jacket.jpg'
+import { Checkout } from "../Buttons/Checkout/Checkout";
 
 export const ShoppingCart = () => {
     return (
@@ -34,6 +35,27 @@ export const ShoppingCart = () => {
                         <input type="text" placeholder="enter promo code"/>
                         <button>Apply</button>
                     </div>
+                </div>
+                <div className="subtotal">
+                    <p>Subtotal</p>
+                    <p className="price-text">$489.34</p>
+                </div>
+                <div className="est-ship">
+                    <p>Estimated Shipping</p>
+                    <p className="price-text">$10.00</p>
+                </div>
+                <div className="est-tax">
+                    <p>Estimated Tax</p>
+                    <p>--</p>
+                </div>
+                <hr></hr>
+                <div className="overall-total">
+                    <p>Total</p>
+                    <p className="price-text">$499.34</p>
+                </div>
+                <hr></hr>
+                <div className="checkout-btn-container">
+                    <Checkout />
                 </div>
             </div>
         </div>
