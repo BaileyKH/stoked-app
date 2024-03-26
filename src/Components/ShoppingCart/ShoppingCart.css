@@ -38,6 +38,23 @@
     padding-bottom: 10px;
 }
 
+.size-quantity-change {
+    display: flex;
+    margin-top: 50px;
+}
+
+.size-quantity-change p{
+    font-weight: 700;
+    padding: 0;
+}
+
+.size-quantity-change select {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
 .content-price {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1em;
@@ -47,6 +64,12 @@
     padding: 0 5px 5px;
     margin-left: 80px;
 }
+
+.remove-item {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
 
 .summary-container {
     display: flex;
@@ -91,6 +114,11 @@
     border-radius: 28px;
     margin-left: 8px;
     padding: 8px 24px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    border: 1px solid hsl(206, 100%, 50%);
 }
 
 .subtotal,
