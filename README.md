@@ -19,4 +19,3 @@ This project is built using the following technologies:
 - **HTML5/CSS3:** For structuring and styling the website.
 - **JavaScript (ES6+):** For dynamic content and interactive elements.
 - **React:** A powerful JavaScript library for building user interfaces.
-- **Vitest:** For testing
