@@ -2,14 +2,14 @@ import { useState } from "react";
 
 import "./ProductItem.css";
 
-import main from "/src/assets/product-images/686-jacket.jpg";
-import img1 from "/src/assets/product-images/product-views/back.webp";
-import img2 from "/src/assets/product-images/product-views/goggle-pocket.jpeg";
-import img3 from "/src/assets/product-images/product-views/material.jpeg";
-import img4 from "/src/assets/product-images/product-views/pass-pocket.webp";
-import img5 from "/src/assets/product-images/product-views/phone-pocket.webp";
-import img6 from "/src/assets/product-images/product-views/sleeve.webp";
-import img7 from "/src/assets/product-images/product-views/waist.jpeg";
+import main from "/public/product-images/686-jacket.jpg";
+import img1 from "/public/product-images/product-views/back.webp";
+import img2 from "/public/product-images/product-views/goggle-pocket.jpeg";
+import img3 from "/public/product-images/product-views/material.jpeg";
+import img4 from "/public/product-images/product-views/pass-pocket.webp";
+import img5 from "/public/product-images/product-views/phone-pocket.webp";
+import img6 from "/public/product-images/product-views/sleeve.webp";
+import img7 from "/public/product-images/product-views/waist.jpeg";
 
 import { Size } from "../Buttons/Size/Size";
 import { Quantity } from "../Buttons/Quantity/Quantity";

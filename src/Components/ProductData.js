@@ -1,13 +1,13 @@
-import Helmet1 from '/src/assets/product-images/anon-helmet.jpg'
-import Jacket1 from '/src/assets/product-images/686-jacket.jpg'
-import Goggle1 from '/src/assets/product-images/snow-goggles-1.webp'
-import Goggle2 from '/src/assets/product-images/snow-goggles-2.jpeg'
-import Board1 from '/src/assets/product-images/powder-board.jpg'
-import Helmet2 from '/src/assets/product-images/snow-helmet-2.webp'
-import Board2 from '/src/assets/product-images/snowboard-2.webp'
-import Jacket2 from '/src/assets/product-images/snow-jacket-2.avif'
-import Binding1 from '/src/assets/product-images/snow-bindings-1.webp'
-import Binding2 from '/src/assets/product-images/snow-bindings-2.avif'
+import Helmet1 from '/public/product-images/anon-helmet.jpg'
+import Jacket1 from '/public/product-images/686-jacket.jpg'
+import Goggle1 from '/public/product-images/snow-goggles-1.webp'
+import Goggle2 from '/public/product-images/snow-goggles-2.jpeg'
+import Board1 from '/public/product-images/powder-board.jpg'
+import Helmet2 from '/public/product-images/snow-helmet-2.webp'
+import Board2 from '/public/product-images/snowboard-2.webp'
+import Jacket2 from '/public/product-images/snow-jacket-2.avif'
+import Binding1 from '/public/product-images/snow-bindings-1.webp'
+import Binding2 from '/public/product-images/snow-bindings-2.avif'
 
 export const items = [
     {

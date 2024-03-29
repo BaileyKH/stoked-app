@@ -5,7 +5,7 @@ import "./ShoppingCart.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
-import img from "/src/assets/product-images/686-jacket.jpg";
+import img from "/public/product-images/686-jacket.jpg";
 import { Checkout } from "../Buttons/Checkout/Checkout";
 
 export const ShoppingCart = () => {
