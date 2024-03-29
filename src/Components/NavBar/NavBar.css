@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 3px 3px 0 hsla(0, 0%, 4%, 0.1);
+    overflow-x: hidden;
 }
 
 .nav-logo {
@@ -30,7 +31,6 @@
 
 .nav-items .links:hover {
     text-decoration: underline;
-    
 }
 
 .search-container {
@@ -96,10 +96,73 @@ input[type="search"]::-webkit-search-cancel-button{
     align-items: center;
 }
 
+.nav-bar-container {
+    display: none;
+}
+
+.bar-icon {
+    font-size: 1.5em
+}
 
 
 @media only screen and (max-width: 1020px) {
-    .navbar {
-        display: none
+    .slideout-menu {
+        margin-top: 95px;
+        position: fixed;
+        top: 0;
+        right: -250px; 
+        width: 100%;
+        height: 20vh;
+        background-color: #fff;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+        z-index: 1;
+        transition: right 0.3s ease-in-out;
     }
+    
+    .slideout-menu.open {
+        right: 0;
+    }
+
+    .navbar{
+        justify-content: space-between;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .nav-bar-container {
+        display: flex;
+    }
+
+    .links {
+        color: hsl(229, 12%, 17%);
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .cart-container {
+        margin-top: 25px;
+        padding-top: 10px;
+    }
+
+    .cart-logo {
+        font-size: 1.5em;
+    }
+
+    .cart-count {
+        display: none;
+    }
+
 }
