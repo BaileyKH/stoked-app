@@ -48,4 +48,8 @@
     .product-header {
         text-align: center;
     }
+
+    .product-header p{
+        margin-top: 25px;
+    }
 }
