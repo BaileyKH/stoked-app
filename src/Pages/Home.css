@@ -29,6 +29,10 @@
 }
 
 @media only screen and (max-width: 1020px) {
+    .product-layout {
+        margin: 70px 15px 50px;
+    }
+
     .main-item-container{
         justify-content: center;
     }
