@@ -84,7 +84,13 @@
     margin: 15px 0;
 }
 
-
+@media only screen and (max-width: 1020px) {
+    .main-prod-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
 

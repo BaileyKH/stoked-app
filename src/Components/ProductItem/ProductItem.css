@@ -86,3 +86,22 @@
 .specs p{
     padding: 5px;
 }
+
+@media only screen and (max-width: 1020px) {
+    .prod-page-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small-img-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .large-img-container img {
+        max-height: auto;
+        max-width: 100%;
+    }
+}
