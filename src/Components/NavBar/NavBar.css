@@ -108,13 +108,12 @@ input[type="search"]::-webkit-search-cancel-button{
 @media only screen and (max-width: 1020px) {
     .slideout-menu {
         margin-top: 95px;
-        position: fixed;
+        position: absolute;
         top: 0;
         right: -250px; 
         width: 100%;
         height: 20vh;
-        background-color: #fff;
-        box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+        background-color: hsl(0, 0%, 100%);
         z-index: 1;
         transition: right 0.3s ease-in-out;
     }
