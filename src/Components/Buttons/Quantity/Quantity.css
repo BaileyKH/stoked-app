@@ -52,7 +52,17 @@ input[type="number"]::-webkit-outer-spin-button {
         justify-content: center;
         align-items: center;
     }
+
+    /* .quantity-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+    
     .quantity-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 1.3em;
     }
 }
