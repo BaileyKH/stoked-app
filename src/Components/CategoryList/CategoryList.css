@@ -33,3 +33,16 @@
     padding: 0 48px;
 }
 
+@media only screen and (max-width: 1020px) { 
+    .category-btn-container button {
+        font-size: 0.6em;
+        margin-right: 10px;
+    }
+
+    .prod-container {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
