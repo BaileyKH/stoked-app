@@ -27,11 +27,13 @@ export const Quantity = ({ maxQuantity = 10 }) => {
     };
   
     return (
-      <div className="quantity-container">
-        <h4 className="quantity-title">Quantity</h4>
-        <button onClick={handleDecrease} disabled={quantity === 1}>-</button>
-        <input type="number" value={quantity} onChange={handleChange} min="1" max={maxQuantity} />
-        <button onClick={handleIncrease} disabled={quantity === maxQuantity}>+</button>
+      <div className="main-quantity-container">
+        <div className="quantity-container">
+          <h4 className="quantity-title">Quantity</h4>
+          <button onClick={handleDecrease} disabled={quantity === 1}>-</button>
+          <input type="number" value={quantity} onChange={handleChange} min="1" max={maxQuantity} />
+          <button onClick={handleIncrease} disabled={quantity === maxQuantity}>+</button>
+        </div>
       </div>
     );
 }

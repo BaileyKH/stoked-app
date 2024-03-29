@@ -46,3 +46,13 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+@media only screen and (max-width: 1020px) {
+    .main-quantity-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .quantity-title {
+        font-size: 1.3em;
+    }
+}

@@ -40,9 +40,11 @@ export const ProductItem = () => {
           <img src={mainImg} alt="686 snowboarding jacket" />
         </div>
         <div className="checkout-container">
-          <h3>686 Snow Jacket</h3>
-          <p>Black and Orange 686 Snowboarding Jacket</p>
-          <p className="price">$435.68</p>
+          <div className="checkout-text-container">
+            <h3>686 Snow Jacket</h3>
+            <p>Black and Orange 686 Snowboarding Jacket</p>
+            <p className="price">$435.68</p>
+          </div>
           <hr></hr>
           <div className="checkout-option">
             <Size />

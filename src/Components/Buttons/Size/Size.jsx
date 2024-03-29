@@ -7,7 +7,7 @@ export const Size = () => {
     const options = ["Small", "Medium", "Large", "XL"];
 
     return(
-        <div>
+        <div className="size-container">
             <h4 className="size-title">Size</h4>
             {options.map((option, index) => (
               <button

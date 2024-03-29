@@ -22,3 +22,20 @@
     border: 2px solid hsl(206, 100%, 50%);
     color: hsl(206, 100%, 50%);
 }
+
+@media only screen and (max-width: 1020px) {
+    .size-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .size-title {
+        padding-right: 10px;
+    }
+
+    .segment {
+        font-size: 0.8em;
+    }
+}
