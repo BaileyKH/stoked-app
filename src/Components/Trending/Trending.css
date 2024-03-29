@@ -77,3 +77,9 @@
 .trending-btn button:hover {
     color: hsl(206, 100%, 50%);
 }
+
+@media only screen and (max-width: 1020px) {
+    .trending-title {
+        margin: 0 0 25px 0;
+    }
+}
