@@ -21,13 +21,13 @@ export const Home = () => {
       <Banner 
         title={"Burton Step-On"}
         description={"The newest addition to the burton line is their one of a kind step-on bindings, making it easier than ever to shred the moutain"}
-        image={"/public/banner-images/step-on.png"}
+        image={"/banner-images/step-on.png"}
       />
       <Trending />
       <Banner 
         title={"Montec Snowboard Jacket"}
         description={"Medium-weight insulation for perfect balance between warmth and performance"}
-        image={"/public/banner-images/banner-2.png"}
+        image={"/banner-images/banner-2.png"}
       />
     </>
   )
