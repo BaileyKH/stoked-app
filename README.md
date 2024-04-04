@@ -10,7 +10,6 @@ Stoked Snowboarding Shop offers a user-friendly interface with robust features i
 - **Detailed Product Descriptions:** Get all the information you need with detailed descriptions, specifications, and high-quality images for each product.
 - **Shopping Cart:** Easily add items to your cart, view your cart's contents, and make adjustments as needed before checkout.
 - **Responsive Design:** Enjoy a seamless shopping experience on any device, from desktop to mobile.
-- **Search Functionality:** Quickly find exactly what you're looking for with our intuitive search feature.
 
 ## Technologies Used
 
