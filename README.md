@@ -1,4 +1,4 @@
-# SnowRide Gear Shop
+# Stoked Snowboarding
 
 Welcome to Stoked, your go-to destination for the latest and greatest in snowboarding equipment. Whether you're hitting the slopes for the first time or you're a seasoned pro, our extensive collection of snowboards, bindings, boots, and accessories will ensure you're geared up and ready for your next adventure.
 
