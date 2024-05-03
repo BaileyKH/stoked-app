@@ -1,12 +1,12 @@
 import "./Products.css";
 
-// Update the component to accept `items` as a prop
+
 export const Products = ({ items }) => {
-  // No need to filter here; the filtering is done in CategoryList
+
 
   return (
     <>
-      {items.map((item) => ( // Correct the parameter to 'item'
+      {items.map((item) => ( 
         <div className="card" key={item.id}>
           <p className="desc-text">{item.description}</p>
           <div className="image-container">
